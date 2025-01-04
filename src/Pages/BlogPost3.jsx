@@ -1,9 +1,8 @@
+import React from 'react';
 import Navbar from '../Components/Navbar';
-import { CiCalendar } from 'react-icons/ci';
+import { CiCalendar, CiStar } from 'react-icons/ci';
 
-import { CiStar } from "react-icons/ci";
-
-const BlogPost1 = () => {
+const BlogPost3 = () => {
 
     return (
 
@@ -20,7 +19,7 @@ const BlogPost1 = () => {
 
                     <div className='flex justify-between lg:flex-row flex-col place-items-center '>
                         <div className=' w-[290px] sm:w-[590px] overflow-hidden'>
-                            <img className='w-[100%] h-[100%] object-cover' src="https://i.ibb.co.com/zHtKCgD/blog-post-1.jpg" alt="blog_img_1" />
+                            <img className='w-[100%] h-[100%] object-cover' src="https://i.ibb.co.com/fqYYyQk/blog-post-3.jpg" alt="blog_img_3" />
 
                         </div>
 
@@ -174,4 +173,4 @@ const BlogPost1 = () => {
     );
 };
 
-export default BlogPost1;
+export default BlogPost3;

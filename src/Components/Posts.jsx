@@ -12,9 +12,9 @@ const Posts = () => {
             <div className='mt-[139px]'>
                 <div className='main-container'>
 
-                    <div className='grid grid-cols-2 gap-y-9 justify-between'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 place-items-center gap-y-9 justify-between'>
 
-                        <div className='w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
+                        <div className='w-[300px] sm:w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
 
                             {/* img */}
                             <div className='h-[300px] w-[100%] overflow-hidden relative  '>
@@ -29,21 +29,21 @@ const Posts = () => {
                             </div>
 
                             {/* Content */}
-                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px] border-solid border-[1px] border-[#FFE2D1] border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
+                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px] border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
 
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-x-[14px] items-center'>
                                         <CiCalendar className='text-black text-2xl font-bold' />
 
-                                        <h6 className='text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
+                                        <h6 className='text-[12px] sm:text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
                                     </div>
 
                                     <button className='py-[8px] px-[20px] bg-white rounded-[10px]'>Design</button>
                                 </div>
 
 
-                                <h4 className='mt-[29px] text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
+                                <h4 className='mt-[29px] text-[20px] sm:text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
 
 
                                 <p className='max-w-[450px] mt-2 text-[#000] font-[400] font-["Roboto"] leading-normal '>
@@ -55,7 +55,7 @@ const Posts = () => {
 
                         </div>
 
-                        <div className='w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
+                        <div className='w-[300px] sm:w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
 
                             {/* img */}
                             <div className='h-[300px] w-[100%] overflow-hidden relative  '>
@@ -70,25 +70,25 @@ const Posts = () => {
                             </div>
 
                             {/* Content */}
-                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px] border-solid border-[1px] border-[#FFE2D1] border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
+                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px]  border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
 
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-x-[14px] items-center'>
                                         <CiCalendar className='text-black text-2xl font-bold' />
 
-                                        <h6 className='text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
+                                        <h6 className='text-[12px] sm:text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
                                     </div>
 
                                     <button className='py-[8px] px-[20px] bg-white rounded-[10px]'>Design</button>
                                 </div>
 
 
-                                <h4 className='mt-[29px] text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
+                                <h4 className='mt-[29px] text-[20px] sm:text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
 
 
                                 <p className='max-w-[450px] mt-2 text-[#000] font-[400] font-["Roboto"] leading-normal '>
-                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link>
+                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link to='/blog-post2'>
                                         <span className='text-blue-600'> Read More </span> </Link>
                                 </p>
 
@@ -97,7 +97,7 @@ const Posts = () => {
                         </div>
 
 
-                        <div className='w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
+                        <div className='w-[300px] sm:w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
 
                             {/* img */}
                             <div className='h-[300px] w-[100%] overflow-hidden relative  '>
@@ -112,25 +112,25 @@ const Posts = () => {
                             </div>
 
                             {/* Content */}
-                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px] border-solid border-[1px] border-[#FFE2D1] border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
+                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px]  border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
 
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-x-[14px] items-center'>
                                         <CiCalendar className='text-black text-2xl font-bold' />
 
-                                        <h6 className='text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
+                                        <h6 className='text-[12px] sm:text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
                                     </div>
 
                                     <button className='py-[8px] px-[20px] bg-white rounded-[10px]'>Design</button>
                                 </div>
 
 
-                                <h4 className='mt-[29px] text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
+                                <h4 className='mt-[29px] text-[20px] sm:text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
 
 
                                 <p className='max-w-[450px] mt-2 text-[#000] font-[400] font-["Roboto"] leading-normal '>
-                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link>
+                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link to='/blog-post3'>
                                         <span className='text-blue-600'> Read More </span> </Link>
                                 </p>
 
@@ -139,7 +139,7 @@ const Posts = () => {
                         </div>
 
 
-                        <div className='w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
+                        <div className='w-[300px] sm:w-[600px] rounded-[10px] bg-[#F7F9F9] overflow-hidden'>
 
                             {/* img */}
                             <div className='h-[300px] w-[100%] overflow-hidden relative  '>
@@ -154,25 +154,25 @@ const Posts = () => {
                             </div>
 
                             {/* Content */}
-                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px] border-solid border-[1px] border-[#FFE2D1] border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
+                            <div className='pt-[29px] pr-[18px] pl-[44px] pb-[44px]  border-t-0 rounded-t-[0px] rounded-r-[0px] rounded-b-[6px] rounded-l-[6px]'>
 
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-x-[14px] items-center'>
                                         <CiCalendar className='text-black text-2xl font-bold' />
 
-                                        <h6 className='text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
+                                        <h6 className=' text-[12px] sm:text-[24px] text-[#000] font-["Roboto"] font-[400] leading-normal'>December 24, 2024</h6>
                                     </div>
 
                                     <button className='py-[8px] px-[20px] bg-white rounded-[10px]'>Design</button>
                                 </div>
 
 
-                                <h4 className='mt-[29px] text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
+                                <h4 className='mt-[29px] text-[20px] sm:text-[36px] text-[#000] font-["Roboto"] font-[700] leading-normal'>Example Blog Post 1</h4>
 
 
                                 <p className='max-w-[450px] mt-2 text-[#000] font-[400] font-["Roboto"] leading-normal '>
-                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link>
+                                    Ante taciti nulla sit libero orci sed nam. Sagittis suspendisse gravida ornare iaculis cras nullam varius ac ullamcorper. Nunc euismod hendrerit netus ligula aptent potenti. Aliquam volutpat nibh scelerisque at.... <Link to='/blog-post4'>
                                         <span className='text-blue-600'> Read More </span> </Link>
                                 </p>
 
